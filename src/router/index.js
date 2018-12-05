@@ -4,9 +4,9 @@ import HelloWorld from '@/components/HelloWorld'
 import Homepage from '@/components/Homepage'
 // import  from '@/components/'
 import FrameB from '@/components/FrameB'
-import FrameI from '@/components/FrameI'
+import FrameE from '@/components/FrameE'
 import RegB  from '@/components/registeredB'
-import RegI from '@/components/registeredI'
+import RegE from '@/components/registeredE'
 Vue.use(Router)
 
 export default new Router({
@@ -22,19 +22,19 @@ export default new Router({
       component: RegB
     },
     {
-      path: '/RegI',
-      name: 'RegI',
-      component: RegI
+      path: '/RegE',
+      name: 'RegE',
+      component: RegE
     },
     {
-      path: '/Frameb',
+      path: '/FrameB',
       name: 'FrameB',
       component: FrameB
     },
     {
-      path: '/FrameI',
-      name: 'FrameI',
-      component: FrameI
+      path: '/FrameE',
+      name: 'FrameE',
+      component: FrameE
     },
   ]
 })

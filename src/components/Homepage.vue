@@ -21,7 +21,7 @@
              </div>
         </Content>
         <Footer :style="{minHeight: '15vh'}">
-            f
+            
         </Footer>
     </Layout>
    </div>
