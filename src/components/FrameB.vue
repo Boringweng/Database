@@ -17,9 +17,9 @@
     left: 20px;
 }
 .layout-nav{
-    width: 420px;
-    margin: 0 auto;
-    margin-right: 20px;
+    max-width: 300px;
+    margin:0 auto;
+    margin-right: 30px;    
 }
 </style>
 <template>
@@ -28,26 +28,30 @@
             <Header>
                 <Menu mode="horizontal" theme="dark" active-name="1">
                     <div class="layout-logo"></div>
+
                     <div class="layout-nav">
-                        <MenuItem name="1">
-                            <Icon type="ios-navigate"></Icon>
-                            Item 1
-                        </MenuItem>
-                        <MenuItem name="2">
-                            <Icon type="ios-keypad"></Icon>
-                            Item 2
-                        </MenuItem>
-                        <MenuItem name="3">
-                            <Icon type="ios-analytics"></Icon>
-                            Item 3
-                        </MenuItem>
-                        <MenuItem name="4">
-                            <Icon type="ios-paper"></Icon>
-                            Item 4
-                        </MenuItem>
+                        <nav class=" navbar navbar-expand-lg  navbar-dark ">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" style="font-size:25px; margin-right:30px" href="#">seek <span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" style="font-size:25px; margin-right:30px" href="#">options</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " style="font-size:25px;" href="#">revise</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
                     </div>
                 </Menu>
             </Header>
+
             <Layout>
                 <Sider hide-trigger :style="{background: '#fff'}">
                     <Menu active-name="1-2" theme="light" width="auto" :open-names="['1']">
