@@ -35,10 +35,13 @@
                         </router-link>
                         </MenuItem>
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <MenuItem name="4">
                             <Icon type="ios-paper"></Icon>
                             Item 4
                         </MenuItem>
+=======
+>>>>>>> Chris
 =======
 >>>>>>> Chris
                     </div>
@@ -48,7 +51,10 @@
                 <Layout :style="{padding: '0 36px 36px'}">
                     <Breadcrumb :style="{margin: '24px 0'}">
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <BreadcrumbItem>Home</BreadcrumbItem>
+=======
+>>>>>>> Chris
 =======
 >>>>>>> Chris
                         <BreadcrumbItem>找工作</BreadcrumbItem>

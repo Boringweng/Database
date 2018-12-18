@@ -1,6 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
     <style scoped>
     input {padding:8px 15px; background:#ccc; border:0 none;
+=======
+<style scoped>
+input {padding:8px 15px; background:#ccc; border:0 none;
+>>>>>>> Chris
 =======
 <style scoped>
 input {padding:8px 15px; background:#ccc; border:0 none;
@@ -85,7 +90,11 @@ legend{
                     <div class="layout-nav">
                         <MenuItem name="1">
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <router-link to="register">
+=======
+                            <router-link to="reg_worker">
+>>>>>>> Chris
 =======
                             <router-link to="reg_worker">
 >>>>>>> Chris
@@ -106,12 +115,15 @@ legend{
                             <font face="DFKai-sb" size="5"><b>帳號:</b></font> <input type="text" placeholder="請輸入帳號(身分證ID)..."><br><br>
                             <font face="DFKai-sb" size="5"><b>密碼:</b></font> <input type="password" placeholder="請輸入密碼..."><br><br>
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <div id="CHOOSE">
                                 <i class="iconfont icon-wode" ></i>
                                 <font size="5" face="DFKai-sb"><b>身分:</b></font>
                                 <input type="radio" name="identity" value="s1"> <font size="5" face="DFKai-sb"><b>求職者</b></font>
                                 <input type="radio" name="identity" value="s2"> <font size="5" face="DFKai-sb"><b>老闆</b></font><br><br>
                             </div>
+=======
+>>>>>>> Chris
 =======
 >>>>>>> Chris
                             <div id="BUTTON">

@@ -1,30 +1,30 @@
-    <style scoped>
-    .layout{
-        border: 1px solid #d7dde4;
-        background: #f5f7f9;
-        position: relative;
-        border-radius: 4px;
-        overflow: hidden;
-    }
-    .layout-logo{
-        width: 100px;
-        height: 30px;
-        background: #5b6270;
-        border-radius: 3px;
-        float: left;
-        position: relative;
-        top: 15px;
-        left: 20px;
-    }
-    .layout-nav{
-        width: 100px;
-        margin: 0 auto;
-        margin-right: 0px;
-    }
-    .layout-footer-center{
-        text-align: center;
-    }
-    input {padding:8px 15px; background:#ccc; border:0 none;
+<style scoped>
+.layout{
+    border: 1px solid #d7dde4;
+    background: #f5f7f9;
+    position: relative;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.layout-logo{
+    width: 100px;
+    height: 30px;
+    background: #5b6270;
+    border-radius: 3px;
+    float: left;
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+.layout-nav{
+    width: 100px;
+    margin: 0 auto;
+    margin-right: 0px;
+}
+.layout-footer-center{
+    text-align: center;
+}
+input {padding:8px 15px; background:#ccc; border:0 none;
 -webkit-border-radius: 5px;
 border-radius: 5px; }
 #REGISTER{

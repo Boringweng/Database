@@ -5,10 +5,8 @@
                 <Menu mode="horizontal" theme="dark" active-name="1">
                     <div class="layout-nav">
                         <MenuItem name="1">
-                            <router-link to="register">
-                                <Icon type="ios-bookmarks-outline" style="color:white"></Icon>
-                                <font face="DFKai-sb" size="3" style="color:white"><b>註冊</b></font>
-                            </router-link>
+                            <Icon type="ios-bookmarks-outline" style="color:white"></Icon>
+                            <font face="DFKai-sb" size="3" style="color:white"><b>取消</b></font>
                         </MenuItem>
                     </div>
                 </Menu>
