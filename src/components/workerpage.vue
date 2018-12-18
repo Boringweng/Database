@@ -1,98 +1,57 @@
+<style scoped>
+.layout{
+    border: 1px solid #d7dde4;
+    background: #f5f7f9;
+    position: relative;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.layout-nav{
+    width: 400px;
+    margin: 0 auto;
+    margin-right: 20px;
+}
+</style>
 <template>
-<div id="WORKER">
-    <link rel="stylesheet" href="//at.alicdn.com/t/font_957264_r4qu5k760fj.css">
-    <div id="TITLE">
-        <h1><b>工程師求職網</b></h1>
-    <br>
+    <div class="layout">
+        <Layout>
+            <Header>
+                <Menu mode="horizontal" theme="dark" active-name="1">
+                    <div class="layout-nav">
+                        <MenuItem name="1">
+                        <router-link to="ResumeAdd">
+                            <Icon type="md-add" style="color:white"></Icon>
+                            <font face="DFKai-sb" size="3" style="color:white"><b>新增履歷表</b></font>
+                        </router-link>
+                        </MenuItem>
+                        <MenuItem name="2">
+                            <Icon type="ios-hammer-outline" style="color:white"></Icon>
+                            <font face="DFKai-sb" size="3" style="color:white"><b>修改履歷表</b></font>
+                        </MenuItem>
+                        <MenuItem name="3">
+                        <router-link to="home">
+                            <Icon type="md-redo" style="color:white"></Icon>
+                            <font face="DFKai-sb" size="3" style="color:white"><b>返回</b></font>
+                        </router-link>
+                        </MenuItem>
+                    </div>
+                </Menu>
+            </Header>
+            <Layout>
+                <Layout :style="{padding: '0 36px 36px'}">
+                    <Breadcrumb :style="{margin: '24px 0'}">
+                        <BreadcrumbItem>找工作</BreadcrumbItem>
+                        <BreadcrumbItem>找員工</BreadcrumbItem>
+                    </Breadcrumb>
+                    <Content :style="{padding: '24px', minHeight: '280px', background: '#fff'}">
+                        Content
+                    </Content>
+                </Layout>
+            </Layout>
+        </Layout>
     </div>
-    <div id="worker_button">
-        <font face="DFKai-sb" size="3"><b>履歷表</b></font>
-        <i class="iconfont icon-wenben" ></i>
-        <router-link to="ResumeAdd">
-            <Button type="insert" class="button insert">新增</Button>
-        </router-link>
-        <Button type="modify" class="button modify">修改</Button>
-    </div>
-    <div id="frame">
-    </div>
-    <div id="end">
-        <router-link to="home">
-            <button class="button turn"><font face="DFKai-sb" size="4">返回</font></button>
-        </router-link>
-    </div>
-</div>
 </template>
-
 <script>
 export default {
 }
 </script>
-
-<style>
-#end{
-    text-align: center;
-}
-#WORKER{
-    text-align:center;
-}
-#worker_button{
-    text-align: left;
-}
-#frame{
-    border-top:3px black solid;
-    border-right:3px black solid;
-    border-left:3px black solid;
-    border-bottom:3px black solid;
-    padding:0%;
-    border-style:double;
-}
-#info{
-    vertical-align:top;
-}
-body {
-    background-image:url( 'https://photo.16pic.com/00/38/62/16pic_3862207_b.jpg' );
-    background-repeat:no-repeat;
-    background-position: 30% 20%;
-    background-size: cover;
-}
-.button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: black;
-    padding: 5px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 15px;
-    margin: 3px 3px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
-}
-.insert {
-    border: none;
-    background-color: inherit;
-    padding: 10px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    display: inline-block;
-}
-.modify {
-    border: none;
-    background-color: inherit;
-    padding: 10px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    display: inline-block;
-}
-.turn {
-    background-color: #4CAF50;
-    color: black;
-    border: 2px solid #4CAF50;
-}
-.turn:hover {
-    background-color: gray;
-    color: rgb(0, 0, 0);
-}
-.button:hover {background:gray;}
-</style>
