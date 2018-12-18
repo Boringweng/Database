@@ -34,17 +34,23 @@
                             <font face="DFKai-sb" size="3" style="color:white"><b>返回</b></font>
                         </router-link>
                         </MenuItem>
+<<<<<<< HEAD
                         <MenuItem name="4">
                             <Icon type="ios-paper"></Icon>
                             Item 4
                         </MenuItem>
+=======
+>>>>>>> Chris
                     </div>
                 </Menu>
             </Header>
             <Layout>
                 <Layout :style="{padding: '0 36px 36px'}">
                     <Breadcrumb :style="{margin: '24px 0'}">
+<<<<<<< HEAD
                         <BreadcrumbItem>Home</BreadcrumbItem>
+=======
+>>>>>>> Chris
                         <BreadcrumbItem>找工作</BreadcrumbItem>
                         <BreadcrumbItem>找員工</BreadcrumbItem>
                     </Breadcrumb>

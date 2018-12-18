@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Homepage from '@/components/home'
-import REGISTER from '@/components/register'
+import REGISTER from '@/components/reg_worker'
 import WORKER from '@/components/workerpage'
 import Add from '@/components/ResumeAdd'
 
@@ -20,7 +20,7 @@ export default new Router({
       component: Homepage
     },
     {
-      path: '/register',
+      path: '/reg_worker',
       name: 'REGISTER',
       component: REGISTER
     },
