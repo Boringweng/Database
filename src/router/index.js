@@ -1,12 +1,10 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
-import Homepage from '@/components/Homepage'
-// import  from '@/components/'
-import FrameB from '@/components/FrameB'
-import FrameE from '@/components/FrameE'
-import RegB  from '@/components/registeredB'
-import RegE from '@/components/registeredE'
+import Homepage from '@/components/home'
+import REGISTER from '@/components/register'
+import WORKER from '@/components/workerpage'
+import Add from '@/components/ResumeAdd'
+
 Vue.use(Router)
 
 export default new Router({
@@ -17,24 +15,24 @@ export default new Router({
       component: Homepage
     },
     {
-      path: '/RegB',
-      name: 'RegB',
-      component: RegB
+      path: '/home',
+      name: 'ENTER',
+      component: Homepage
     },
     {
-      path: '/RegE',
-      name: 'RegE',
-      component: RegE
+      path: '/register',
+      name: 'REGISTER',
+      component: REGISTER
     },
     {
-      path: '/FrameB',
-      name: 'FrameB',
-      component: FrameB
+      path: '/ResumeAdd',
+      name: 'RESUMEADD',
+      component: Add
     },
     {
-      path: '/FrameE',
-      name: 'FrameE',
-      component: FrameE
-    },
+      path: '/workerpage',
+      name: 'WORKER',
+      component: WORKER
+    }
   ]
 })
