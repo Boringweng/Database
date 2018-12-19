@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Homepage from '@/components/home'
-import REGISTER from '@/components/reg_worker'
+import Enter from '@/components/Enterpage'
+// import REGISTER from '@/components/reg_worker'
 import WORKER from '@/components/workerpage'
 import Add from '@/components/ResumeAdd'
 
@@ -12,18 +12,13 @@ export default new Router({
     {
       path: '/',
       name: 'ENTER',
-      component: Homepage
+      component: Enter
     },
-    {
-      path: '/home',
-      name: 'ENTER',
-      component: Homepage
-    },
-    {
-      path: '/reg_worker',
-      name: 'REGISTER',
-      component: REGISTER
-    },
+    // {
+    //   path: '/reg_worker',
+    //   name: 'REGISTER',
+    //   component: REGISTER
+    // },
     {
       path: '/ResumeAdd',
       name: 'RESUMEADD',

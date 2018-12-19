@@ -29,34 +29,22 @@
                             <font face="DFKai-sb" size="3" style="color:white"><b>修改履歷表</b></font>
                         </MenuItem>
                         <MenuItem name="3">
-                        <router-link to="home">
+                        <router-link to="/">
                             <Icon type="md-redo" style="color:white"></Icon>
-                            <font face="DFKai-sb" size="3" style="color:white"><b>返回</b></font>
+                            <font face="DFKai-sb" size="3" style="color:white"><b>登出</b></font>
                         </router-link>
                         </MenuItem>
-<<<<<<< HEAD
-<<<<<<< HEAD
                         <MenuItem name="4">
                             <Icon type="ios-paper"></Icon>
                             Item 4
                         </MenuItem>
-=======
->>>>>>> Chris
-=======
->>>>>>> Chris
                     </div>
                 </Menu>
             </Header>
             <Layout>
                 <Layout :style="{padding: '0 36px 36px'}">
                     <Breadcrumb :style="{margin: '24px 0'}">
-<<<<<<< HEAD
-<<<<<<< HEAD
                         <BreadcrumbItem>Home</BreadcrumbItem>
-=======
->>>>>>> Chris
-=======
->>>>>>> Chris
                         <BreadcrumbItem>找工作</BreadcrumbItem>
                         <BreadcrumbItem>找員工</BreadcrumbItem>
                     </Breadcrumb>

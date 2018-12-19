@@ -5,8 +5,10 @@
                 <Menu mode="horizontal" theme="dark" active-name="1">
                     <div class="layout-nav">
                         <MenuItem name="1">
+                            <router-link to="Enterpage">
                             <Icon type="ios-bookmarks-outline" style="color:white"></Icon>
-                            <font face="DFKai-sb" size="3" style="color:white"><b>取消</b></font>
+                            <font face="DFKai-sb" size="3" style="color:white"><b>登出</b></font>
+                            </router-link>
                         </MenuItem>
                     </div>
                 </Menu>
@@ -34,10 +36,10 @@
                         </div>
                     </template>
                     <div id="button_check">
-                        <router-link to="home">
+                        <!-- <router-link to="workerpage"> -->
                             <button class="button button1"><font face="DFKai-sb" size="4">完成</font></button>
-                        </router-link>
-                        <router-link to="home">
+                        <!-- </router-link> -->
+                        <router-link to="workerpage">
                             <button class="button button2"><font face="DFKai-sb" size="4">返回</font></button>
                         </router-link>
                     </div>
