@@ -1,6 +1,6 @@
 <template>
      <div class="layout">
-        <Layout>
+        <Layout :style="{minHeight: '100vh'}">
             <Header :style="{position: 'fixed', width: '100%'}">
                 <Menu mode="horizontal" theme="dark" active-name="1">
                     <div class="layout-nav">
@@ -13,18 +13,22 @@
                     </div>
                 </Menu>
             </Header>
-            <Content :style="{margin: '88px 20px 0', background: '#fff', minHeight: '500px'}">
-                <div id="exp">
-                    <font face="DFKai-sb" size="5">基本資料</font><br>
-                    <font face="DFKai-sb" size="3"><b>身分證字號:</b></font> <input type="text" placeholder="請輸入身分證ID..."><br><br>
-                    <font face="DFKai-sb" size="3"><b>期望薪水:</b></font> <input type="text" placeholder="請輸入期望薪水..."><br><br>
-                    <font face="DFKai-sb" size="3"><b>申請部門:</b></font> <input type="text" placeholder="請輸入所申請部門..."><br><br>
-                    <font face="DFKai-sb" size="3"><b>技能:</b></font> <input type="text" placeholder="請輸入技能..."><br><br>
+            <Content :style="{margin: '88px 20px 0', background: '#fff', minHeight: '500px',}">
+                <div id="exp"  style="text-align:center;:">
+                    <font face="DFKai-sb" size="5">基本資料</font><br><br>
+                        <Row type="flex" justify="center" class="code-row-bg">
+                        <Col span="3"><font face="DFKai-sb" size="3"><b>身分證字號</b></font> <input type="text" placeholder="請輸入身分證ID..."></Col>
+                        <Col span="3"><font face="DFKai-sb" size="3"><b>期望薪水</b></font> <input type="text" placeholder="請輸入期望薪水..."></Col>
+                        <Col span="3"><font face="DFKai-sb" size="3"><b>申請部門</b></font> <input type="text" placeholder="請輸入所申請部門..."></Col>
+                        <Col span="3"><font face="DFKai-sb" size="3"><b>技能</b></font> <input type="text" placeholder="請輸入技能..."></Col>
+                        </Row>
                     <hr>
                     <font face="DFKai-sb" size="5">學歷</font><br>
-                    <font face="DFKai-sb" size="3"><b>學位:</b></font> <input type="text" placeholder="請輸入最高學位..."><br><br>
-                    <font face="DFKai-sb" size="3"><b>學校:</b></font> <input type="text" placeholder="請輸入其學校..."><br><br>
-                    <font face="DFKai-sb" size="3"><b>系所:</b></font> <input type="text" placeholder="請輸入其系所..."><br><br>
+                        <Row type="flex" justify="center" class="code-row-bg">
+                        <Col span="3"><font face="DFKai-sb" size="3"><b>學位</b></font> <input type="text" placeholder="請輸入最高學位..."></Col>
+                        <Col span="3"><font face="DFKai-sb" size="3"><b>學校</b></font> <input type="text" placeholder="請輸入其學校..."></Col>
+                        <Col span="3"><font face="DFKai-sb" size="3"><b>系所</b></font> <input type="text" placeholder="請輸入其系所..."></Col>
+                        </Row>
                     <hr>
                     <font face="DFKai-sb" size="5">工作經驗</font><br>
                     <input type="button" value="新增" v-on:click="addbox" id="add"><br><br>

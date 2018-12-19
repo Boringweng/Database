@@ -75,7 +75,7 @@ legend{
 </style>
 <template>
     <div class="layout">
-        <Layout>
+        <Layout :style="{minHeight: '100vh'}">
             <Header :style="{position: 'fixed', width: '100%'}">
                 <Menu mode="horizontal" theme="dark" active-name="1">
                     <div class="layout-nav">

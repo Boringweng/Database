@@ -14,7 +14,7 @@
 </style>
 <template>
     <div class="layout">
-        <Layout>
+        <Layout :style="{minHeight: '100vh'}">
             <Header>
                 <Menu mode="horizontal" theme="dark" active-name="1">
                     <div class="layout-nav">
