@@ -5,7 +5,7 @@
                 <Menu mode="horizontal" theme="dark" active-name="1">
                     <div class="layout-nav">
                         <MenuItem name="1">
-                            <router-link to="Enterpage">
+                            <router-link to="/">
                             <Icon type="ios-bookmarks-outline" style="color:white"></Icon>
                             <font face="DFKai-sb" size="3" style="color:white"><b>登出</b></font>
                             </router-link>
@@ -21,6 +21,7 @@
                         <Col span="3"><font face="DFKai-sb" size="3"><b>期望薪水</b></font> <input type="text" placeholder="請輸入期望薪水..."></Col>
                         <Col span="3"><font face="DFKai-sb" size="3"><b>申請部門</b></font> <input type="text" placeholder="請輸入所申請部門..."></Col>
                         <Col span="3"><font face="DFKai-sb" size="3"><b>技能</b></font> <input type="text" placeholder="請輸入技能..."></Col>
+                        <Col span="3"><font face="DFKai-sb" size="3"><b>電話</b></font> <input type="text" placeholder="請輸入技能..."></Col>
                         </Row>
                     <hr>
                     <font face="DFKai-sb" size="5">學歷</font><br>

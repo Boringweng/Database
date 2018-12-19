@@ -44,7 +44,6 @@
             <Layout>
                 <Layout :style="{padding: '0 36px 36px'}">
                     <Breadcrumb :style="{margin: '24px 0'}">
-                        <BreadcrumbItem>Home</BreadcrumbItem>
                         <BreadcrumbItem>找工作</BreadcrumbItem>
                         <BreadcrumbItem>找員工</BreadcrumbItem>
                     </Breadcrumb>
